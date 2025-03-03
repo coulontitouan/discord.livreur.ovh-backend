@@ -5,7 +5,7 @@ PREFIX = "api"
 
 api_blueprint = Blueprint(PREFIX, __name__)
 
-TOKEN = "TOKEN"
+TOKEN = "TOKEN_"
 HEADERS = {
     "Authorization": f"Bot {TOKEN}",
     "Content-Type": "application/json",
